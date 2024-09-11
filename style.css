@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     
+    /* border: 1px solid black; */
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 a{
@@ -93,4 +98,61 @@ li{
 
     color: greenyellow;
     border: 3px solid red;
+}
+
+.about{
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.about h2{
+    font-size: 30px;
+    color: #ff6a6a;
+}
+.about h1{
+    font-size: 50px;
+}
+.about .contents{
+    width: 1200px;
+    height: 500px;
+    display: flex;
+}
+.about .left{
+    width: 400px;
+    height: 500px;
+}
+.about .left img {
+    width: 400px;
+    height: 500px;
+}
+
+.about .right {
+    width: 800px;
+    height: 500px;
+    padding-left: 10px;
+}
+.about .right h3{
+    font-size: 22px;
+    color: #ff6a6a;
+}
+.about .right li{
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+
+.fa-brands{
+    font-size: 50px;
+    margin-right: 10px;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-facebook{
+    color: #3b5998;
+}
+
+.icons {
+    padding-top: 80px;
 }
